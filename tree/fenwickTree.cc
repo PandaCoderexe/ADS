@@ -1,3 +1,9 @@
+/*
+A Fenwick tree (Binary Indexed Tree) is a data structure that maintains prefix sums of an array while supporting point updates efficiently.
+In this code, add(idx, delta) updates one position and sumPrefix(idx) returns the sum of elements from 1 to idx, 
+                            both in 𝑂(log 𝑛) time using the i & -i bit trick.
+                A range sum sumRange(l, r) is computed as sumPrefix(r) - sumPrefix(l-1).
+*/
 #include <iostream>
 #include <vector>
 

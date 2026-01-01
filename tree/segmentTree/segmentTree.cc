@@ -1,3 +1,8 @@
+/*
+A segment tree is a binary tree data structure that stores information (such as sums, minima, or maxima) about subranges of an array. 
+            It allows you to answer range queries and perform updates efficiently by visiting only 𝑂(log 𝑛) nodes. 
+                Each node represents an interval, and its value is computed from its children.
+*/
 #include <iostream>
 #include <vector>
 
